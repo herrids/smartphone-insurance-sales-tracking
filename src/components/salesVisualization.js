@@ -13,6 +13,7 @@ function SalesVisualization(props) {
     </div>
   ) : (
     <div style={{height: "300px", width: "600px"}}>
+      <h2>Sales Statistiken</h2>
       <VictoryPie 
         data={arr}
         animate={{
